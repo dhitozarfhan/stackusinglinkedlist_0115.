@@ -97,8 +97,11 @@ while (choice != 5) {
 		}
 		break;
 
-	case 4: 
+	case 4:
 		cout << "Exiting program." << endl;
 		break;
- 
+	}
+	cout << endl;
+
+		
 	
