@@ -95,5 +95,6 @@ while (choice != 5) {
 		else {
 			cout << "Stack is empty. No top value." << endl;
 		}
-          break;
-		
+		break;
+
+	
