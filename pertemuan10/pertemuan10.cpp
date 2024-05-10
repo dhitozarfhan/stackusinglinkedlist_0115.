@@ -67,6 +67,8 @@ int main() {
 	int value;
 
 while (choice != 5) {
+	cout << "1. Push\n";
+	
 	
 
 		
