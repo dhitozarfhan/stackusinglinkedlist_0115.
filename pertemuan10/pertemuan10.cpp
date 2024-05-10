@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// node class representing a single node iin the linked list 
 class Node {
 public:
 	int data;
@@ -13,13 +12,24 @@ public:
 	}
 };
 	
-// Stack class
+
 class Stack {
 private:
-	Node* top; // pointer to the node of the stuck
+	Node* top; 
 
 public:
 	Stack() {
-		top = NULL;
+		top = NULL; 
 	}
+
+	int push(int value) {
+		Node* newNode = new Node();
+		newNode->data = value; 
+		newNode->next = top;
+		top = newNode;
+		cout << "Push value: " << value << endl;
+		return value;
+	}
+
+
 };
