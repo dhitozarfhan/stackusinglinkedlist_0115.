@@ -13,3 +13,13 @@ public:
 	}
 };
 	
+// Stack class
+class Stack {
+private:
+	Node* top; // pointer to the node of the stuck
+
+public:
+	Stack() {
+		top = NULL;
+	}
+};
