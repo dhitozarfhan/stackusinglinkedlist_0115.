@@ -60,3 +60,10 @@ public:
 	}
 };
 
+int main() {
+	Stack stck;
+
+	int choice = 0;
+	int value;
+
+	
