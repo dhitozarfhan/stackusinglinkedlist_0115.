@@ -68,6 +68,7 @@ int main() {
 
 while (choice != 5) {
 	cout << "1. Push\n";
+	cout << "2. Pop\n";
 	
 	
 
