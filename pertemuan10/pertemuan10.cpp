@@ -37,10 +37,22 @@ public:
 		}
 		cout << "Popped value: " << top->data << endl;
 		top = top->next;
+
+	}
+	
+	void peek() {
+		if (top == NULL) {
+			cout << "Listy is empty." << endl;
+		}
+		else {
+			Node* current = top;
+			while (current != NULL) {
+				cout << current->data << " " << endl;
+				current = current->next;
+			}
+			cout << endl;
+		}
 	}
 
 	
-
-
-
 };
